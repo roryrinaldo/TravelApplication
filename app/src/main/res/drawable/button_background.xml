@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- button_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#FF0000" /> <!-- Warna latar belakang saat tombol ditekan -->
+            <corners android:radius="8dp" /> <!-- Radius sudut (rounded corners) -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#FF0000" /> <!-- Warna latar belakang default tombol -->
+            <corners android:radius="8dp" /> <!-- Radius sudut (rounded corners) -->
+        </shape>
+    </item>
+</selector>
